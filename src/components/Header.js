@@ -5,7 +5,19 @@ import React from "react"
 const Header = () => {
   return (
     <header>
-      <h1>todos</h1>
+      <h1
+        style={{
+          fontSize: "6rem",
+          fontWeight: "600",
+          marginBottom: "2rem",
+          lineHeight: "1em",
+          color: "#ff0000",
+          textTransform: "uppercase",
+          textAlign: "center",
+        }}
+      >
+        todos
+      </h1>
     </header>
   )
 }
